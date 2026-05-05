@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 # Load all variables from .env into the environment
 load_dotenv()
 
-INDUSTRY       = os.getenv("INDUSTRY",       "healthcare")
+INDUSTRY       = os.getenv("INDUSTRY",       "manufacturing")
 LEARNER_SCHEMA = os.getenv("LEARNER_SCHEMA", "learner_05")
 
 PROJECT_ROOT = pathlib.Path(__file__).resolve().parent
