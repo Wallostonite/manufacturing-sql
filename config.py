@@ -40,7 +40,7 @@ except Exception as e:
     DB_AVAILABLE = False
 
 def _setup_logger():
-    lgr = logging.getLogger("Healthcare")
+    lgr = logging.getLogger("Manufacturing")
     lgr.setLevel(logging.INFO)
     if not lgr.handlers:
         h = logging.StreamHandler()
